@@ -4,6 +4,6 @@ const getProducts = () => {
   if (products) {
     return Promise.resolve(products)
   }
-  return console.log('error') 
+  return console.log('error')
 }
 export default getProducts
